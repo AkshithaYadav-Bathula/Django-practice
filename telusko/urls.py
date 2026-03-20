@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('travello.urls')),#to have travello as home page
+    path('accounts/',include('accounts.urls')),
     path('admin/', admin.site.urls),
 
     
